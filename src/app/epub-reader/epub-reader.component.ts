@@ -25,7 +25,7 @@ export class EpubReaderComponent implements OnInit {
   constructor(private dataService: DataService) {}
 
   ngOnInit(): void {
-    this.load();
+    // this.load();
   }
 
   load(): void {
