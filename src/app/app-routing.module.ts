@@ -7,11 +7,11 @@ import { EpubReaderComponent } from './epub-reader/epub-reader.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: EpubReaderComponent,
   },
   {
     path: 'reader',
-    component: EpubReaderComponent
+    component: HomeComponent
   }
 ];
 
