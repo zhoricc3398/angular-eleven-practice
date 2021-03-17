@@ -33,7 +33,8 @@ export class EpubReaderComponent implements OnInit {
     //
     // var firstFile = (<HTMLInputElement>e.target).files[0];
 
-    const url: string = 'https://zhoricc3398.github.io/ugt-csp/assets/test.epub';
+    // const url: string = 'https://zhoricc3398.github.io/ugt-csp/assets/test.epub';
+    const url: string = '../../assets/test.epub';
     // const url: string = '../../assets/icons/icon-72x72.png';
 
     this.subscription.add(
